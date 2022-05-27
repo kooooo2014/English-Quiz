@@ -188,7 +188,17 @@ svg {
 }
 
 .blue-button {
-    margin: 20px; 
+    margin: 20px;
+    display: inline-block;
+    height: 70px;
+    width: 280px;
+    border-radius: 20px;
+    background: #97C3FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Alef';
+    font-size: 24px;
+    line-height: 70px;
+    color: #fff;   
     text-decoration: none;
     border: none;
 }
