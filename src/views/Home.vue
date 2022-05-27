@@ -4,18 +4,17 @@
       <img src="../assets/image1.png" alt="">
       <div class="right-contents">
         <p>英語の発音の違い<br>を学習する</p>
-        <a href="/test" class="blue-button">Let's start!</a>
+        <router-link to="/test" class="blue-button">Let's start!</router-link>
       </div>
     </div>  
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
   name: 'Home',
   components: {
+   
   }
 }
 </script>
@@ -62,11 +61,10 @@ p {
     font-family: 'Alef';
     font-size: 24px;
     line-height: 70px;
-    color: #fff;
-
-    
+    color: #fff;   
+    text-decoration: none;
 }
-.blue-button :hover {
+.blue-button:hover {
     background: #71acff;
 }
     
